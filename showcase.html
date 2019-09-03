@@ -1,0 +1,12 @@
+<div class="row">
+    {{#payload}}
+    <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card text-white {{^sent}}bg-secondary{{/sent}} m-2" style="max-width: 20rem;">
+          <div class="card-header"><a href="{{link}}">{{title}}</a></div>
+          <div class="card-body">
+            <p class="card-text">{{description}}</p>
+          </div>
+        </div>
+    </div>
+    {{/payload}}
+</div>
